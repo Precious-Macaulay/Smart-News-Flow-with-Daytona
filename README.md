@@ -8,7 +8,7 @@ Once you finish your sample and it gets merged, you can open a PR in the Daytona
 
 # Sample <LANGUAGE/FRAMEWORK>
 
-Sample description
+Smart news flow Sample description
 
 ---
 
