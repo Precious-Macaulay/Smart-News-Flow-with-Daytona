@@ -1,6 +1,6 @@
-# **Smart News Flow <JS/Rust/(Node Js, React Js, Express Js)>**
+# **Smart News Flow with Daytona <JS/Rust/(Node Js, React Js, Express Js)>**
 
-**Smart News Flow** is an innovative platform designed for the **Infinyon Quest**, utilizing **Fluvio's real-time data streaming** capabilities combined with **Groq's fast inference large language models (LLMs)** to deliver an enhance and refine historical and realtime news content from various source(currently only supports NewsAPI).
+**Smart News Flow** is an innovative platform designed for the **Quira Quest**, utilizing **Fluvio's real-time data streaming** capabilities combined with **Groq's fast inference large language models (LLMs)** to deliver an enhance and refine historical and realtime news content from various source(currently only supports NewsAPI).
 
 ## **Table of Contents**
 - [**Smart News Flow**](#smart-news-flow)
@@ -176,6 +176,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 
 ## **Acknowledgments**
 
+- Big Thanks to Daytona for providing an easy environment manager.
 - Thanks to Infinyon for providing the Fluvio platform.
 - Special thanks to Groq for their LLMs.
 - Gratitude to NewsAPI for providing news data.
+
