@@ -1,23 +1,4 @@
-# **Smart News Flow**
-
-This repository contains a README file sample for Daytona Samples and the MIT License.
-
-It can be used as a template to create sample repositories that can be added into [Daytona](https://github.com/daytonaio/daytona).
-
-Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
-
-# Sample <LANGUAGE/FRAMEWORK>
-
-Smart news flow Sample description
-
----
-
-## 🚀 Getting Started  
-
-### Open Using Daytona  
-
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-2. **Create the Workspace**:  
+# **Smart News Flow <JS/Rust/(Node Js, React Js, Express Js)>**
 
 **Smart News Flow** is an innovative platform designed for the **Infinyon Quest**, utilizing **Fluvio's real-time data streaming** capabilities combined with **Groq's fast inference large language models (LLMs)** to deliver an enhance and refine historical and realtime news content from various source(currently only supports NewsAPI).
 
@@ -45,7 +26,7 @@ Smart news flow Sample description
   - [**License**](#license)
   - [**Acknowledgments**](#acknowledgments)
 
-## **Installation**
+## 🚀 Getting Started  
 
 ### **Prerequisites**
 
@@ -60,33 +41,28 @@ rustup target add wasm32-wasip1
 - **Groq API Key**: An API key needed to access Groq's LLM services. [Sign up for Groq](https://groq.com).
 - **NewsAPI Key**: An API key needed to fetch news data from NewsAPI. [Get an API key](https://newsapi.org).
 
-### **Steps**
+### Open Using Daytona  
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Precious-Macaulay/Smart-News-Flow.git
-   ```
-2. **Install dependencies**:
-   ```bash
-   cd client
-   npm install
-   ```
-3. **Set up environment variables**:
-   - Navigate to both the client and server directories and set up your environment variables:
-   ```bash
-   cp .env.example .env
-   ```
-   - Fill in the `.env` file with your API base URL and other necessary variables after starting your server.
-
-4. **Start the application**:
-   ```bash
-   npm run dev
-   ```
-   client will be available at  `https://localhost:5173`
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
+2. **Create the Workspace**: 
+```bash
+daytona create https://github.com/Precious-Macaulay/Smart-News-Flow-with-Daytona
+```
 
 ## **Usage**
 
 ### **Running the Project**
+
+### **Start the client application**:
+1. Navigate to the server directory:
+   ```bash
+   cd server
+   ```
+2. Install dependencies and start the server:
+   ```bash
+   npm run dev
+   ```
+   client will be available at  `https://localhost:5173`
 
 #### **Start the Server**
 1. Navigate to the server directory:
@@ -95,7 +71,6 @@ rustup target add wasm32-wasip1
    ```
 2. Install dependencies and start the server:
    ```bash
-   npm install
    npm start
    ```
    - The server will be available at `http://localhost:3000`.
